@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+python-dotenv = "*"
+requests = "*"
+scikit-learn = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+pandas = "*"
+flask-cors = "*"
+tensorflow = "*"
+tensorflow-estimator = "*"
+tensorboard = "*"
+tensorboard-plugin-wit = "*"
+keras-preprocessing = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
